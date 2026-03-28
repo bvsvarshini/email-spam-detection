@@ -65,40 +65,46 @@ A machine learning-based project that classifies SMS messages as **Spam** or **H
   - Missing values ✅
   - Duplicate values ❌ (removed)
 
+## ▶️ How to Run
 
+### 1️⃣ Clone the repository
 
-##🧹 Text Preprocessing (NLP)
-Lowercasing text
-Tokenization using NLTK
-Removing stopwords
+    git clone https://github.com/bvsvarshini/your-repo-name.git
+    cd your-repo-name
 
+### 2️⃣ Install dependencies
 
+    pip install -r requirements.txt
 
-##🏗️ Model Building
-Text converted into numerical form using vectorization
-Model trained using machine learning algorithm
-Saved files:
-model.pkl → trained model
-vectorizer.pkl → text vectorizer
+### 3️⃣ Run the application
 
+    python app.py
 
-##📌 Key Highlights
-Clean and structured dataset
-Effective NLP preprocessing pipeline
-Lightweight and fast model
-Easy to deploy and use
+---
 
+## 📌 Key Highlights
 
-##🚀 Future Improvements
-Improve accuracy with advanced models (LSTM, BERT)
-Add web interface using Flask or Streamlit
-Use larger dataset for better generalization
-Add real-time API support
+- Clean and structured dataset  
+- Effective NLP preprocessing pipeline  
+- Lightweight and fast model  
+- Easy to deploy and use  
 
+---
 
-##📚 Learning Outcomes
-Natural Language Processing fundamentals
-Text preprocessing techniques
-Machine learning model building
-Data cleaning and visualization
-Model deployment basics
+## 🚀 Future Improvements
+
+- Improve accuracy with advanced models (LSTM, BERT)  
+- Add web interface using Flask or Streamlit  
+- Use larger dataset for better generalization  
+- Add real-time API support  
+
+---
+
+## 📚 Learning Outcomes
+
+- Natural Language Processing fundamentals  
+- Text preprocessing techniques  
+- Machine learning model building  
+- Data cleaning and visualization  
+- Model deployment basics  
+
