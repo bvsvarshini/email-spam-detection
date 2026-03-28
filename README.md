@@ -67,11 +67,12 @@ A machine learning-based project that classifies SMS messages as **Spam** or **H
 
 ---
 
-## 📈 Data Visualization
+```## 📈 Data Visualization
 
-```python
+python
 plt.pie(df["Result"].value_counts(), labels=["not spam","spam"], autopct="%0.2f")
 plt.show()
+```
 
 ##🧹 Text Preprocessing (NLP)
 Lowercasing text
