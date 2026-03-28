@@ -67,17 +67,12 @@ A machine learning-based project that classifies SMS messages as **Spam** or **H
 
 ---
 
-```## 📈 Data Visualization
-
-python
-plt.pie(df["Result"].value_counts(), labels=["not spam","spam"], autopct="%0.2f")
-plt.show()
-```
-
 ##🧹 Text Preprocessing (NLP)
 Lowercasing text
 Tokenization using NLTK
 Removing stopwords
+
+---
 
 ##🏗️ Model Building
 Text converted into numerical form using vectorization
@@ -86,17 +81,23 @@ Saved files:
 model.pkl → trained model
 vectorizer.pkl → text vectorizer
 
+---
+
 ##📌 Key Highlights
 Clean and structured dataset
 Effective NLP preprocessing pipeline
 Lightweight and fast model
 Easy to deploy and use
 
+---
+
 ##🚀 Future Improvements
 Improve accuracy with advanced models (LSTM, BERT)
 Add web interface using Flask or Streamlit
 Use larger dataset for better generalization
 Add real-time API support
+
+---
 
 ##📚 Learning Outcomes
 Natural Language Processing fundamentals
